@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//Clase Pokemon
 class Pokemon {
 protected:
 	string nombre;
@@ -12,6 +13,8 @@ public:
 	}
 };
 
+//Clase Pikachu (Hereda de Pokemon)
+
 class Pikachu : public Pokemon {
 public:
 	Pikachu(string n, int p) : Pokemon(n, p) {}
@@ -19,6 +22,8 @@ public:
 		cout << nombre << " dice: Pikachu!" << endl;
 	}
 };
+
+//Clase Videojuego
 
 class Videojuego {
 private:
@@ -32,6 +37,8 @@ public:
 	}
 };
 
+//Clase Personaje
+
 class Personaje {
 private:
 	string nombre;
@@ -42,6 +49,8 @@ public:
 		cout << "Hola, mi nombre es " << nombre << ", quizas me conozcas de " << franquicia << "!" << endl;
 	}
 };
+
+//Funcion main()
 
 int main() {
 	Pikachu miPoke("Pika", 25);

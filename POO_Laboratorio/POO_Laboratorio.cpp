@@ -44,7 +44,7 @@ public:
 };
 
 int main() {
-	Pikachu miPoke("Pika", 25);
+	Pikachu miPoke("PikaPika", 25);
 	miPoke.hacerSonido();
 	Videojuego miJuego("Baldur's Gate 3", 400);
 	miJuego.incrementar();
